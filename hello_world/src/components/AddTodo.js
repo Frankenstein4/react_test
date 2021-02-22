@@ -4,7 +4,8 @@ class AddTodo extends Component {
     render() {
         return (
             <div>
-                11
+                <input/>
+                <button>增加</button>
             </div>
         );
     }

@@ -20,13 +20,14 @@ const todos = [
     completed:true
   }
 ]
+const filter = "all";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <AddTodo/>
         <TodoList todos={todos}/>
-        <Footer/>
+        <Footer filter={filter}/>
       </div>
     );
   }
