@@ -6,9 +6,9 @@ class Footer extends Component {
         return (
             <div>
                <span>show：</span>
-               <button disabled={filter=='all'}>全部</button>
-               <button disabled={filter=='active'}>未完成</button>
-               <button disabled={filter=='completed'}>已完成</button>
+               <button disabled={filter==='all'}>全部</button>
+               <button disabled={filter==='active'}>未完成</button>
+               <button disabled={filter==='completed'}>已完成</button>
             </div>
         );
     }

@@ -4,6 +4,7 @@ import Todo from './Todo';
 class TodoList extends Component {
     render() {
         const {todos} = this.props;
+        console.log(todos);
         return (
             <div>
                <ul>
